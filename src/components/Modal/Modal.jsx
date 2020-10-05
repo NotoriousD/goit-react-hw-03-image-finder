@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 import "./Modal.scss";
 
 export default class Modal extends Component {
@@ -27,3 +28,7 @@ export default class Modal extends Component {
     );
   }
 }
+
+Modal.propTypes = {
+  onClick: PropTypes.func.isRequired,
+};

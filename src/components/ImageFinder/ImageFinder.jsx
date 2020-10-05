@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import SearchBar from "../SearchBar/SearchBar";
-import ImageGallery from "../ImageGallery/ImageGallery";
+import { SearchBar } from "../SearchBar";
+import { ImageGallery } from "../ImageGallery";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
 import { pixabyAPI } from "../../api";
